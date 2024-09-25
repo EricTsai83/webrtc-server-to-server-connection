@@ -107,7 +107,7 @@ async def offer(request):
         await request.json()
     )  # 當我收到來自client 端的 SDP 時，會透過下面的 class 記錄下來
     offer = RTCSessionDescription(sdp=params["sdp"], type=params["type"])
-
+    # 建立一個 PeerConnection 物件
     pc = RTCPeerConnection()
     pc_id = "PeerConnection(%s)" % uuid.uuid4()
     pcs.add(pc)
