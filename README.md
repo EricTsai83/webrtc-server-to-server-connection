@@ -1,6 +1,6 @@
 ## Prerequisite
 
-### 建立 vitual environment
+### 建立 virtual environment
 
 `python -m venv venv`
 
