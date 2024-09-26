@@ -36,9 +36,9 @@
 
 `pip freeze > requirements.txt`
 
-## 運作流程說明
+## Server-to-Server 音檔傳輸的邏輯說明
 
-以下是用繁體中文重新整理的伺服器對伺服器（Server-to-Server）音檔傳輸的邏輯說明。此過程詳細解釋了如何使用 WebRTC 建構 P2P 連線，並通過 STUN 服務器來確保在不同網絡環境中進行 NAT 穿透。
+使用 WebRTC 建構 P2P 連線，並通過 STUN 服務器來確保在不同網絡環境中進行 NAT 穿透。
 
 ### 概述
 
